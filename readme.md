@@ -155,13 +155,12 @@ Visualization outputs:
 ```
 Coral-Reef-Health-Classification/
 │
-├── data/                   # raw images and train/val/test splits  
-├── notebooks/              # Jupyter/Colab notebooks for development  
-├── models/                 # saved model weights (e.g., model.h5)  
-├── results/                # plots: accuracy/loss, confusion matrix  
-├── app.py                  # optional Streamlit/Flask app for deployment  
-├── README.md               # project documentation  
-└── requirements.txt        # Python dependencies  
+├── app.py                 #  Streamlit/Flask app for deployment    
+├── models                 # saved model weights (e.g., model.h5)  
+├── notebooks              # Jupyter/Colab notebooks for development   
+├── results                # plots: accuracy/loss, confusion matrix  
+├── Problem Statement.pdf  # explanation about problemstatement and dataset description
+└── README.md              # project documentation
 ```
 
 ---
@@ -171,7 +170,7 @@ Coral-Reef-Health-Classification/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Coral-Reef-Health-Classification.git  
+git clone https://github.com/srivaishnavi-4/Coral-Reef-Health-Classification.git  
 cd Coral-Reef-Health-Classification  
 ```
 
@@ -200,8 +199,3 @@ python app.py
 ```
 
 ---
-
-## 📄 Citation
-
-If you use this project, dataset, or share results in a publication, please cite the dataset and any model-architectures appropriately.
-
